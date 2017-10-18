@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyCircleWaveView">
+        <attr name="wave_color" format="color"></attr>
+        <attr name="wave_circle" format="boolean"></attr>
+    </declare-styleable>
+
+</resources>

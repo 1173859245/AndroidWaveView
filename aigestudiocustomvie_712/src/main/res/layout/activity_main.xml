@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.sanfeng.hotelbutler.aigestudiocustomvie_712.MainActivity">
+    <com.sanfeng.hotelbutler.aigestudiocustomvie_712.MyCircleWaveView
+        android:id="@+id/waveViewCircle"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="200dp"
+        custom:wave_color="@color/ld_Black"
+        custom:wave_circle="true"
+
+
+        />
+
+</RelativeLayout>
